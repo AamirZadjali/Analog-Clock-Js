@@ -1,0 +1,30 @@
+#contaniner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#sec {
+  height: 150px;
+  width: 2px;
+  background-color: red;
+  bottom: 50%;
+  position: absolute;
+  transform-origin: 0 100%;
+}
+#min {
+  height: 120px;
+  width: 8px;
+  background-color: black;
+  bottom: 50%;
+  position: absolute;
+  transform-origin: 0 100%;
+}
+#hour {
+  height: 90px;
+  width: 10px;
+  background-color: black;
+  bottom: 50%;
+  position: absolute;
+  transform-origin: 0 100%;
+}
